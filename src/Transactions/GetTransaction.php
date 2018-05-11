@@ -25,7 +25,7 @@ class GetTransaction extends OBP implements ObjectInterface
     private $_uid;
 
     /**
-     * GetMerchants constructor.
+     * GetTransaction constructor.
      *
      * @param   array $settings
      * @throws  OBPException

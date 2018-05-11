@@ -6,6 +6,11 @@ use OBP\Exception\OBPException;
 use OBP\ObjectInterface;
 use OBP\OBP;
 
+/**
+ * Class GetTransactions
+ *
+ * @package OBP\Transactions
+ */
 class GetTransactions extends OBP implements ObjectInterface
 {
     /**
@@ -15,7 +20,7 @@ class GetTransactions extends OBP implements ObjectInterface
     const REQUEST_TYPE = 'GET';
 
     /**
-     * GetMerchants constructor.
+     * GetTransactions constructor.
      *
      * @param   array $settings
      * @throws  OBPException
