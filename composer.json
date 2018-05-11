@@ -1,0 +1,22 @@
+{
+  "name": "vwebdesign/onlinebetaalplatform",
+  "description": "PHP wrapper for onlinebetaalplatform.nl rest api ",
+  "type": "library",
+  "homepage": "https://www.vwebdesign.nl/",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Daniel van de Bilt",
+      "email": "support@vcreations.nl",
+      "homepage": "https://www.vwebdesign.nl/"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4" : {
+      "OBP\\" : "src/"
+    }
+  }
+}
