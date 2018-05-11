@@ -1,6 +1,12 @@
 # Onlinebetaalplatform
 PHP wrapper for onlinebetaalplatform.nl rest api
 
+## Installation ##
+
+```
+composer require vwebdesign/onlinebetaalplatform
+```
+
 ## Usage ##
 
 Create a new \OBP\Transactions or \OBP\Merchants instance and add a config array to constructor. The OBP instance has fluent setters for all accepted params.
